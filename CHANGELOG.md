@@ -1,3 +1,12 @@
+## [0.2.1](https://github.com/DevOps-Team4-2022/DevOps_Oct2022_Team4_Week7/compare/v0.2.0...v0.2.1) (2022-12-31)
+
+
+### Bug Fixes
+
+* Fix helloworld typo ([ac4d6d8](https://github.com/DevOps-Team4-2022/DevOps_Oct2022_Team4_Week7/commit/ac4d6d8a3490ba731c374d19c24350fe37b9a919))
+
+
+
 # [0.2.0](https://github.com/DevOps-Team4-2022/DevOps_Oct2022_Team4_Week7/compare/v0.1.0...v0.2.0) (2022-12-31)
 
 
