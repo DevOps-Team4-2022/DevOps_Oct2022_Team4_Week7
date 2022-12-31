@@ -1,4 +1,4 @@
-name: Releases
+name: CDelivery
 on:
   push:
     branches:
@@ -56,5 +56,5 @@ jobs:
             Repository: ${{ github.repository }}
             See changes: https://github.com/${{ github.repository }}/commit/${{github.sha}}
             
-            File Version ${{ steps.changelog.outputs.tag }}.zip will be downloadable below.
+            File ${{ steps.changelog.outputs.tag }}.zip will be downloadable below.
           document: ${{ steps.changelog.outputs.tag }}.zip
