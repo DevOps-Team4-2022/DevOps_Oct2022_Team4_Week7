@@ -1,1 +1,8 @@
-# DevOps_Oct2022_Team4_Week7
+# DevOps Team4 Roles:
+
+- [Tech Lead] - Jian Wei (Aka Jay) 
+- [Scrum Master] - Wei Jun 
+- [Developer] - Mitha
+- [QA] - Vanessa
+
+
