@@ -1,3 +1,12 @@
+# [1.0.0](https://github.com/DevOps-Team4-2022/DevOps_Oct2022_Team4_Week7/compare/v0.2.1...v1.0.0) (2023-01-01)
+
+
+### Features
+
+* created test string 2 ([f31e816](https://github.com/DevOps-Team4-2022/DevOps_Oct2022_Team4_Week7/commit/f31e816be7c98fb42ad02484d730ec226deb273d))
+
+
+
 ## [0.2.1](https://github.com/DevOps-Team4-2022/DevOps_Oct2022_Team4_Week7/compare/v0.2.0...v0.2.1) (2022-12-31)
 
 
