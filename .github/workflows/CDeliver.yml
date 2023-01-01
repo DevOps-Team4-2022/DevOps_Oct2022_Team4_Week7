@@ -1,16 +1,16 @@
-name: CDelivery
+name: CDeliver
 on:
   push:
     branches:
-      - main
+      - 'prod'
 
 jobs:
-  changelog:
+  Deliver:
     runs-on: ubuntu-latest
-
+    environment: PROD
     steps:
       - uses: actions/checkout@v3
-
+      
       - name: conventional Changelog Action
         id: changelog
         uses: TriPSs/conventional-changelog-action@v3
@@ -56,5 +56,5 @@ jobs:
             Repository: ${{ github.repository }}
             See changes: https://github.com/${{ github.repository }}/commit/${{github.sha}}
             
-            File ${{ steps.changelog.outputs.tag }}.zip will be downloadable below.
+            File Version ${{ steps.changelog.outputs.tag }}.zip will be downloadable below.
           document: ${{ steps.changelog.outputs.tag }}.zip

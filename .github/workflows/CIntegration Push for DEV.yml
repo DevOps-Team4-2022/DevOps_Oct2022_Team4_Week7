@@ -1,12 +1,14 @@
-name: CI PUSH
+name: CIntegration for DEV
 
 on:
   push:
-    branches: [main]
+    branches:
+      - 'dev'
     
 jobs:
   build:
     runs-on: ubuntu-latest
+    environment: DEV
     steps:
     - uses: actions/setup-python@v2
       with:
@@ -20,9 +22,6 @@ jobs:
       uses: actions/checkout@v2
       with:
         repository: JayNg96/ReleasesFlow
-    - name: list out contents
-      run: |
-        ls
         
     - name: test with pytest
       run: |
